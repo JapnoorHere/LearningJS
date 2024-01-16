@@ -1,0 +1,8 @@
+type of function is used to check the type of variable
+
+JS is dynamically or loosely typed.
+
+-> type of null variable is "object"
+
+
+Objects -> key : value pair

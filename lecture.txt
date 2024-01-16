@@ -1,0 +1,21 @@
+-> "Ecmascript(standard js -> set of rules followed by js) and Javascript".
+.
+.
+.
+
+->var is function level scope , we can access variable inside function anywhere
+
+->let and const are block level scope , we can access variable inside block anywhere.
+
+-> const same as let in scopes, only diff is we cannot change value.
+
+.
+.
+.
+
+
+Local and global variables
+
+-> global and local variable using var -> will work
+
+-> global and local variable using let -> will not work

@@ -1,0 +1,1 @@
+Hoisting -> Using "var" We can access variables before declaration line but it will always return undefined.
