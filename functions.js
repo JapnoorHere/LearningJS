@@ -26,3 +26,30 @@ const fact = (n)=>{
 }
 
 console.log(fact(5));
+
+
+
+//! comma operator
+
+
+function one(){
+  console.log(1);
+  return 1;
+}
+
+
+function two(){
+  console.log(2);
+  return 2;
+}
+
+
+function three(){
+  console.log(3);
+  return 3;
+}
+
+console.log("comma operator : ");
+let c = (one(),two(),three());
+console.log(c);
+ // * three function returned statement will be stored in c that is 3;
