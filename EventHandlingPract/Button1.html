@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="submit" id="btn">Tap me</button>
+    <p id="demo"></p>
+    <script>
+        var btn = document.getElementById("btn");
+        var para = document.getElementById("demo");
+
+        btn.addEventListener("click",()=>{
+            para.textContent = "Button clicked";
+        });
+    </script>
+</body>
+</html>
