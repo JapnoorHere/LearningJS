@@ -1,24 +1,18 @@
-for (let i = 0; i < 10; i++) {
-    console.log(i);
-    
-}
-
 let obj = {
     name : "Japnoor",
-    role : "programmer",
-    company : 'Google'
+    age : 67
 }
 
-let a =[1,2,4];
-let s = "string";
-for (let key in s) {
-    console.log(s[key]);
+for(let x in obj){
+    console.log(obj[x]);
 }
 
-for (const iterator of "Jap") {
-    console.log(iterator);
+let arr = [1,2,3,4,"Hi"];
+
+for (const key in arr) {
+    console.log(arr[key]);
 }
 
-a.forEach(element => {
-    console.log(element);
-});
+for (const val of arr) {
+    console.log(val);
+}

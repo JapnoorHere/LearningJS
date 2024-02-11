@@ -1,9 +1,7 @@
-function Book(title,author,year){
+function book (title,author){
     this.title = title;
     this.author = author;
-    this.year = year;
 }
 
-let book1 = new Book("abc","def","ghj");
-let book2 = new Book("DAA","Sham","2012");
 
+var book1 = new book("hello","kjfbjkdf");

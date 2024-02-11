@@ -1,10 +1,11 @@
-let car = {
-    make : "Maruti",
-    start : function(){ // * declaring function in object
-        console.log("Engine started");
-    }
+let obj = {
+    "lskasdn" : "sham"
 }
 
-console.log(car.make);
-car.start();
+console.log(obj.lskasdn);
+
+var a = "56";
+var b = 56;
+
+console.log(a==b);
 
